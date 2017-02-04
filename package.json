@@ -1,5 +1,8 @@
 {
   "name" : "ketan-creditcard-validator",
   "version" : "1.0.0",
-  "description": "A JS application to validate given credit card number"
+  "description": "A JS application to validate given credit card number",
+  "scripts": {
+    "start": "node js/main.js"
+  }
 }
