@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card number validator</title>
+</head>
+<script src="js/main.js"></script>
+
+<body>
+<p>Please input the card number </p>
+
+<input id="inputCardNumber" type="text">
+<button type="button" onclick="processCardNumber()">Validate card number</button>
+<p id="response"></p>
+<script>
+    function processCardNumber(){
+        document.getElementById("response").innerHTML =
+            validateCardNumber(document.getElementById("inputCardNumber").value);
+    }
+</script>
+</body>
+</html>
